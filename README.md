@@ -69,6 +69,7 @@ After visiting the repository and opening `01_creating_the_SEA_v2.qmd`, I found 
 
 - **No example dataset:** The `data/` folder contains only saved output files. There is no small input dataset that would let a new user test whether the code runs correctly without downloading terabytes of data.
 
+- Neither a conda environment file (environment.yml) nor an R environment lock file (renv.lock) is provided.
 
 **Strengths I found:**
 
@@ -78,3 +79,5 @@ After visiting the repository and opening `01_creating_the_SEA_v2.qmd`, I found 
 
 - Code chunks have descriptive names like `check_integrity`, `quantify_abundance`, and `standardize_names`, making the document easy
   to navigate.
+  
+- Variable names throughout the code are clear and descriptive, for example `metadata_atlas_v2_filtered`, `biosamples_to_keep`, and `mapping_rate
