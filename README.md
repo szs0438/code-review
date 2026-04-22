@@ -38,7 +38,7 @@ The code is functional but could be improved by increasing modularity, using mor
 
 ---
 
-## 7. Weaknesses / Suggestions
+## 7. Suggestions
 
 - Add step-by-step instructions
 - Provide example datasets
