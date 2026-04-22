@@ -4,8 +4,6 @@
 **DOI:** https://doi.org/10.1111/tpj.16459  
 **Code Repository:** https://github.com/almeidasilvaf/SEA_paper  
   
-I will review the code associated with this paper, which processes and analyzes over 5000 RNA-seq samples from soybean. The code is written 
-in R using Quarto documents and a companion R package called `bears`.
 
 ---
 
@@ -19,7 +17,10 @@ scalable.
 As requested by the editor, my review below focuses on the code associated with this manuscript, available at https://github.com/almeidasilvaf/SEA_paper.
 
 ---
+
 ## 2. High-Level Feedback
+
+### 2.1 Obtaining and Setting Up the Code
 
 The repository is publicly available on GitHub,The repository contains a main README.md, a folder called `chapters/` with six numbered Quarto (.qmd) analysis scripts, a `data/` folder, and a `products/` folder for outputs. The use of an `SEA_paper.Rproj` R Project file is good practice for managing filepaths across computers.
 
@@ -30,7 +31,7 @@ something like:
 ```
 # Install the bears package
 
-remotes::install_github("almeidasilvaf/bears")
+ remotes::install_github("almeidasilvaf/bears")
 
 ```
 
@@ -59,7 +60,7 @@ However, the main README does not explain what software needs to be installed, h
 
 After visiting the repository and opening `01_creating_the_SEA_v2.qmd`, I found the following specific issues and strengths:
 
-**Problems I found:**
+### Problems I found:
 
 - **Undefined variable bug:** The variable `metadata_atlas_v2_downloaded` is used in the `final_metadata_dataframe` code chunk but is never assigned anywhere in the script. If someone ran this code exactly as written, it would fail with an error.
 
@@ -71,7 +72,7 @@ After visiting the repository and opening `01_creating_the_SEA_v2.qmd`, I found 
 
 - Neither a conda environment file (environment.yml) nor an R environment lock file (renv.lock) is provided.
 
-**Strengths I found:**
+### Strengths I found:
 
 - `set.seed(123)` is used at the top of the first script, which is good practice for reproducibility.
 
