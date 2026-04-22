@@ -23,6 +23,12 @@ The repository includes a README file, but documentation is limited. More detail
 
 The code is functional but could be improved by increasing modularity, using more descriptive variable names, and adding comments to improve readability.
 
+## 6. Strengths
+
+- Provides access to a large RNA-seq dataset  
+- Useful for soybean gene expression studies  
+- Code is publicly available  
+
 
 
 
