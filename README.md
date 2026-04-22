@@ -3,7 +3,7 @@
 ## Paper and Code
 
 **Paper:** The Soybean Expression Atlas v2  
-**DOI:** https://doi.org/10.1111/tpj.16459
+**DOI:** https://doi.org/10.1111/tpj.16459  
 **Code Repository:** https://github.com/almeidasilvaf/SEA_paper
 
 ## 1. Summary of the Paper
