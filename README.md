@@ -2,6 +2,7 @@
 
 
 ## 1. Summary of the Paper
+
 This paper presents the Soybean Expression Atlas v2, a large-scale RNA-seq dataset that integrates gene expression profiles from over 5000 samples across different tissues and environmental conditions. The main objective of the study is to provide a comprehensive and accessible resource for analyzing gene expression patterns in soybean.
 
 The associated code is used to process, organize, and analyze RNA-seq data, supporting large-scale transcriptomic studies.
@@ -24,11 +25,13 @@ The code is publicly available, but reproducibility is only partially supported.
 ## 4. Documentation
 
 The repository includes a README file, but documentation is limited. More detailed instructions, examples, and explanations of input and output files would improve usability.
+
 ---
 
 ## 5. Code Quality
 
 The code is functional but could be improved by increasing modularity, using more descriptive variable names, and adding comments to improve readability.
+
 ---
 
 ## 6. Strengths
