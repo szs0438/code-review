@@ -52,3 +52,22 @@ improve transparency and trust in the code.
 
 Using Quarto documents is a good choice because it combines readable narrative text with code in the same file. 
 However, the main README does not explain what software needs to be installed, how long the pipeline takes to run, or what each folder in the repositorycontains.
+
+---
+
+## 3. Specific Code-Level Observations
+
+After visiting the repository and opening `01_creating_the_SEA_v2.qmd`,
+I found the following specific issues and strengths:
+
+**Problems I found:**
+
+- **Undefined variable bug:** The variable `metadata_atlas_v2_downloaded`
+  is used in the `final_metadata_dataframe` code chunk but is never assigned
+  anywhere in the script. If someone ran this code exactly as written, it
+  would fail with an error.
+
+- **Copy-paste error:** The pattern `".*embryo.*" = "embryo"` appears three
+  times in a row inside the `standardize_names` code chunk. This is a
+  copy-paste mistake with no effect, but it shows the code was not carefully
+  checked before publication.
