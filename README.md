@@ -42,10 +42,8 @@ anyone else and is a serious reproducibility problem. Third, no `renv.lock` file
 
 ### 2.3 Git Usage
 
-The repository has only 10 commits total, which is very few for a project of
-this scale. Most files were added in a single "Initial commit of new
-Quarto-based repo" message, making the development history essentially
-invisible. More frequent commits with descriptive messages would greatly
+The repository has only 10 commits total, which is very few for a project of this scale. Most files were added in a single "Initial commit of new
+Quarto-based repo" message, making the development history essentially invisible. More frequent commits with descriptive messages would greatly
 improve transparency and trust in the code.
 
 ### 2.4 Documentation
