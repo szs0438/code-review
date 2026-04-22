@@ -40,7 +40,7 @@ The code also depends on external command-line tools `fastp` and `salmon` for qu
 ### 2.2 Reproducibility
 
 Full reproduction of results is not realistic for most users for three reasons. First, running the pipeline requires downloading potentially terabytes of raw RNA-seq data from NCBI, and no small example dataset is provided for testing. 
-Second, in `01_creating_the_SEA_v2.qmd`, the authors write that a file "was manually edited" outside of the code — this step cannot be reproduced by
+Second, in `01_creating_the_SEA_v2.qmd`, the authors write that a file "was manually edited" outside of the code-this step cannot be reproduced by
 anyone else and is a serious reproducibility problem. Third, no `renv.lock` file is provided to record which exact versions of R and all packages were used.
 
 ### 2.3 Git Usage
