@@ -11,6 +11,10 @@ This review focuses on evaluating the associated code, particularly its usabilit
 
 The code provides useful functionality for RNA-seq data analysis, but its usability and clarity could be improved, especially for new users.
 
+## 3. Reproducibility
+
+The code is publicly available, but reproducibility is only partially supported. Clear step-by-step instructions and environment setup details are missing, making it difficult for new users to fully reproduce the results.
+
 
 
 
