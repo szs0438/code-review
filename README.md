@@ -7,6 +7,13 @@ This paper presents the Soybean Expression Atlas v2, a large-scale RNA-seq datas
 The associated code is used to process, organize, and analyze RNA-seq data, supporting large-scale transcriptomic studies.
 This review focuses on evaluating the associated code, particularly its usability, structure, and reproducibility.
 
+## 2. Overall Evaluation of the Code
+
+The code provides useful functionality for RNA-seq data analysis, but its usability and clarity could be improved, especially for new users.
+
+
+
+
 ## Paper 
 * Title: The Soybean Expression Atlas v2: A comprehensive database of over 5000 RNA-seq samples
 * Link: [https://doi.org/10.1111/tpj.16459] (https://onlinelibrary.wiley.com/doi/full/10.1111/tpj.16459)
