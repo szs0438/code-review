@@ -1,10 +1,12 @@
-# Code Review: Soybean Expression Atlas v2
-
-## Paper and Code
+# Code Review Proposal
 
 **Paper:** The Soybean Expression Atlas v2  
 **DOI:** https://doi.org/10.1111/tpj.16459  
 **Code Repository:** https://github.com/almeidasilvaf/SEA_paper
+
+I will review the code associated with this paper, which processes and 
+analyzes over 5000 RNA-seq samples from soybean. The code is written 
+in R using Quarto documents and a companion R package called `bears`.
 
 ## 1. Summary of the Paper
 This paper presents the Soybean Expression Atlas v2, a large-scale RNA-seq dataset that integrates gene expression profiles from over 5000 samples across different tissues and environmental conditions. The main objective of the study is to provide a comprehensive and accessible resource for analyzing gene expression patterns in soybean.
