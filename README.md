@@ -81,3 +81,14 @@ After visiting the repository and opening `01_creating_the_SEA_v2.qmd`, I found 
   to navigate.
   
 - Variable names throughout the code are clear and descriptive, for example `metadata_atlas_v2_filtered`, `biosamples_to_keep`, and `mapping_rate
+
+---
+
+## 4. Conclusion
+
+The Soybean Expression Atlas v2 code is a genuinely valuable contribution to the plant biology community.The decision to use Quarto documents makes
+the analysis readable, and building the processing pipeline into a dedicated R package (`bears`) shows good software design.  `set.seed()`, `sessioninfo()`, descriptive variable names, and numbered chapter files are good coding practices.
+
+However,several issues (the absence of installation and setup instructions in the README, a manual data editing step that cannot be reproduced from codealone) would prevent most users from reproducing the results. If they address those issues would make this resourc more accessible for community of plant scientist.
+
+
