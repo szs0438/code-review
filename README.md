@@ -37,9 +37,10 @@ The code is functional but could be improved by increasing modularity, using mor
 
 ## 6. Strengths
 
-- Provides access to a large RNA-seq dataset  
-- Useful for soybean gene expression studies  
-- Code is publicly available  
+- Integrates a large RNA-seq dataset (>5000 samples)  
+- Provides a valuable resource for soybean transcriptomics  
+- Code is publicly available, promoting transparency  
+- Supports large-scale gene expression analysis
 
 ---
 
