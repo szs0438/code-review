@@ -66,3 +66,5 @@ After visiting the repository and opening `01_creating_the_SEA_v2.qmd`, I found 
 - **Copy-paste error:** The pattern `".*embryo.*" = "embryo"` appears three times in a row inside the `standardize_names` code chunk. This is a copy-paste mistake with no effect, but it shows the code was not carefully checked before publication.
   
 - **Manual editing breaks reproducibility:** After generating the file `final_metadata_classified_tissues.tsv`, the authors state it "was manually edited." There is no code documenting what changes were made, so no one else can reproduce this step.
+
+- **No example dataset:** The `data/` folder contains only saved output files. There is no small input dataset that would let a new user test whether the code runs correctly without downloading terabytes of data.
