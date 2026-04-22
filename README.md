@@ -68,3 +68,13 @@ After visiting the repository and opening `01_creating_the_SEA_v2.qmd`, I found 
 - **Manual editing breaks reproducibility:** After generating the file `final_metadata_classified_tissues.tsv`, the authors state it "was manually edited." There is no code documenting what changes were made, so no one else can reproduce this step.
 
 - **No example dataset:** The `data/` folder contains only saved output files. There is no small input dataset that would let a new user test whether the code runs correctly without downloading terabytes of data.
+
+
+**Strengths I found:**
+
+- `set.seed(123)` is used at the top of the first script, which is good practice for reproducibility.
+
+- `sessioninfo::session_info()` appears at the end of the script, recording the exact R version and package versions used during the analysis.
+
+- Code chunks have descriptive names like `check_integrity`, `quantify_abundance`, and `standardize_names`, making the document easy
+  to navigate.
