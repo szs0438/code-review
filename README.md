@@ -2,10 +2,11 @@
 
 **Paper:** The Soybean Expression Atlas v2: A comprehensive database of over 5000 RNA-seq samples  
 **DOI:** https://doi.org/10.1111/tpj.16459  
-**Code Repository:** https://github.com/almeidasilvaf/SEA_paper
-
+**Code Repository:** https://github.com/almeidasilvaf/SEA_paper  
+  
 I will review the code associated with this paper, which processes and analyzes over 5000 RNA-seq samples from soybean. The code is written 
 in R using Quarto documents and a companion R package called `bears`.
+
 ---
 
 ## 1. Summary
@@ -26,10 +27,11 @@ However, a new user immediately faces a major barrier: there are no instructions
 The analysis depends on a companion R package called `bears`, but this is never mentioned with installation instructions. The README should include
 something like:
 
-### Install the bears package
-
 ```
+# Install the bears package
+
 remotes::install_github("almeidasilvaf/bears")
+
 ```
 
 The code also depends on external command-line tools `fastp` and `salmon` for quality control and transcript quantification, but no installation guidance is provided for these tools either.
@@ -48,7 +50,5 @@ improve transparency and trust in the code.
 
 ### 2.4 Documentation
 
-Using Quarto documents is a good choice because it combines readable narrative
-text with code in the same file. However, the main README does not explain
-what software needs to be installed, how long the pipeline takes to run,
-or what each folder in the repository contains.
+Using Quarto documents is a good choice because it combines readable narrative text with code in the same file. 
+However, the main README does not explain what software needs to be installed, how long the pipeline takes to run, or what each folder in the repositorycontains.
