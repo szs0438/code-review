@@ -19,6 +19,10 @@ The code is publicly available, but reproducibility is only partially supported.
 
 The repository includes a README file, but documentation is limited. More detailed instructions, examples, and explanations of input and output files would improve usability.
 
+## 5. Code Quality
+
+The code is functional but could be improved by increasing modularity, using more descriptive variable names, and adding comments to improve readability.
+
 
 
 
