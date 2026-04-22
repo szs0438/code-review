@@ -47,6 +47,11 @@ The code is functional but could be improved by increasing modularity, using mor
 
 ---
 
+## 8. Conclusion
+
+The code is valuable for RNA-seq analysis but would benefit from improved documentation, reproducibility, and usability to make it more accessible to users.
+
+---
 
 ## Paper 
 * Title: The Soybean Expression Atlas v2: A comprehensive database of over 5000 RNA-seq samples
