@@ -15,6 +15,10 @@ The code provides useful functionality for RNA-seq data analysis, but its usabil
 
 The code is publicly available, but reproducibility is only partially supported. Clear step-by-step instructions and environment setup details are missing, making it difficult for new users to fully reproduce the results.
 
+## 4. Documentation
+
+The repository includes a README file, but documentation is limited. More detailed instructions, examples, and explanations of input and output files would improve usability.
+
 
 
 
